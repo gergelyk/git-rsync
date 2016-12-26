@@ -68,7 +68,7 @@ Following commands are available in the top directory of the project:
 Documentation
 =============
 
-Separate documents contain `Tutorial` and `User's Manual` and `Reference` respectively.
+Separate documents contain `Tutorial` and `User's Manual` and `Reference` respectively. Check `doc` directory.
 
 Disclaimer
 ==========
