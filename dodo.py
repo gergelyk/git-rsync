@@ -3,6 +3,12 @@ from path import Path
 
 ext = Path(sys.executable).ext
 
+def task_config():
+    """ Configures environment.
+    """
+    return {'actions': ['git config rsync.url .git/storage/'],
+           }
+
 def task_build():
     """ Build executable specific for current platform.
     """

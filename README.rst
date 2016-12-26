@@ -18,6 +18,8 @@ What differs ``git-rsync`` from other solutions is that large files are not bund
 Installation
 ============
 
+Pre-compiled versions of the application can be found `here <https://github.com/gergelyk/git-rsync/releases>`_.
+
 Linux
 -----
 
