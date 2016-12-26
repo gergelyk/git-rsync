@@ -68,6 +68,11 @@ def create_large_files(spec):
         shell('echo "Executable {name}" > "app {name}.exe"'.format(name=name))
     os.chdir(topdir)
     
+def init_gitrsync(spec):
+    with open(".gitrsync", "w+") as fh:
+        for name in spec:
+            fh.write('"app ' + name + '.exe"\n')
+
 repos_v1 = """
 0 1 2
 1.0.0
